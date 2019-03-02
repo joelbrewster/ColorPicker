@@ -1,2 +1,0 @@
-# ColorPicker
-Created with CodeSandbox

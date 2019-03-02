@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.canvas {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+}
+
+.pixel {
+  width: 30px;
+  height: 30px;
+  border: 1px solid grey;
+  box-sizing: border-box;
+}
+.pixel.current-color {
+  border: 2px solid red;
+}
+.white {
+  background-color: white;
+}
+.lightblue {
+  background-color: rgb(0, 188, 212);
+}
+.blue {
+  background-color: rgb(3, 169, 244);
+}
+.darkblue {
+  background-color: rgb(33, 150, 243);
+}
