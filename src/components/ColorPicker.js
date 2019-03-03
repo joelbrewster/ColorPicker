@@ -1,6 +1,6 @@
-import React from "react";
-import Pixel from "./Pixel";
-import Colors from "../Colors";
+import React from 'react'
+import Pixel from './Pixel'
+import Colors from '../Colors'
 
 export default props => {
   return (
@@ -8,13 +8,13 @@ export default props => {
       {Colors.map((color, index) => {
         return (
           <Pixel
-            onClick={e => props.setColor(index)}
             key={index}
             background={color}
             current={Colors[props.currentColor] === color}
+            onClick={e => props.setColor(index)}
           />
-        );
+        )
       })}
     </div>
-  );
-};
+  )
+}
